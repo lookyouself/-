@@ -1,0 +1,347 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?tomleg');
+    src:  url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?tomleg') format('truetype'),
+      url('../fonts/icomoon.woff?tomleg') format('woff'),
+      url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+
+  .icon-cheveron:before {
+    content: "\e91e";
+    font-family: "icomoon";
+  }
+  .icon-cart:before {
+    content: "\e93a";
+    font-family: "icomoon";
+    font-size: 20px;
+
+  } 
+/* 首页 */
+header{
+    width: 1200px;
+    height: 30px;
+    font-size: 13px;
+    line-height: 25px;
+    text-indent: 5px;
+    background-color:rgb(241,241,241);
+
+    
+}
+.style_red{
+ color: rgb(201, 119, 119)
+}
+.ul1{
+  display: inline;
+    float: right;
+}
+nav{
+  width: 1200px;
+  height: 500px;
+  /* border: 1px red solid; */
+
+}
+
+nav .di{
+    float: left;
+    width: 400px;
+    height: 500px;
+    border: 1px rgb(199, 185, 185) solid;
+    border-radius: 3%;
+}
+.imgdy{
+  margin-top: 10px;
+  float: left;
+  width: 150px;
+  height: 50px;
+  /* border: 1px red solid; */
+  background-image: url(../img/抖音.jpg);
+  background-repeat: repeat;
+  background-size: contain;
+}
+.imgwb{
+  margin-top: 10px;
+  float: left;
+  width: 150px;
+  height: 50px;
+  /* border: 1px red solid; */
+  background-image: url(../img/微博图标.png);
+  background-repeat: repeat;
+  background-size: cover;
+
+}
+.imgtt{
+  margin-top: 10px;
+  float: left;
+  width: 150px;
+  height: 50px;
+  /* border: 1px red solid; */
+  background-image: url(../img/头条图标.png);
+  background-repeat: repeat;
+  background-size: cover;
+
+}
+nav .di h2{
+ 
+  font-family: "楷体";
+  font-size: 42px;
+  color: rgb(240, 174, 52);
+}
+.ul2{
+ 
+  color: rgb(74, 71, 119);
+}
+.ul2 li{
+  margin-left: 15px;
+  margin-top: 5px;
+
+}
+.ul2 li a{
+  font-size: 20px;
+  margin-left: 15px;
+  color: #000;
+}
+.rdone{
+  font-family: "楷体"; 
+  font-size: 25px;
+  color: rgb(168,46,46);
+}
+.rdtwo{
+  font-family: "楷体"; 
+  font-size: 25px;
+  color: rgb(240,65,66);
+}
+.rdtree{
+  font-family: "楷体"; 
+  font-size: 25px;
+  color: rgb(255,154,3);
+}
+.rdp{
+  font-family: "楷体"; 
+  font-size: 25px;
+  color: rgb(153,153,153);
+}
+
+
+/* 开通会员 */
+.one{
+  float: left;
+  width: 500px;
+  height: 500px;
+  border: 1px rgb(158, 144, 144) solid;
+}
+.two{
+  float: left;
+  width: 700px;
+  height: 500px;
+  border: 1px rgb(158, 144, 144) solid;
+
+}
+.tree{
+  margin: 10px 12px;
+  float: left;
+  width: 150px;
+  height: 200px;
+  border: 1px rgb(158, 144, 144) solid;
+}
+.four{
+  margin-right: 1px;
+  margin-left: 2px;
+  float: left;
+  width: 345px;
+  height: 270px;
+  /* border: 1px rgb(158, 144, 144) solid; */
+  text-align: center;
+
+}
+.h2{
+  font-family: "楷体";
+  margin-top: 30px;
+  color: rgb(218, 95, 64);
+  font-size: 40px;
+  text-align: center;
+
+}
+nav ul li{
+  font-size: 15px;
+  margin-top: 20px;
+}
+.h2p{
+  margin-top: 20px;
+  font-size: 20px;
+  
+}
+h4{
+  
+  color: rgb(126, 86, 219);
+  font-size: 35px;
+}
+.p1{
+  color: rgb(238, 129, 27);
+  margin-top: 50px;
+  font-size: 40px;
+  text-align: center;
+}
+.p2{ 
+  font-size: 15px;
+  color: #728394;
+}
+
+.p3{
+ text-align: center;
+  font-size: 15px;
+  color: #728394;
+}
+hr{
+  height:1px;
+  border:none;
+  border-top:1px dashed #728394;
+
+}
+.p4{
+  color: black;
+  text-align: center;
+  font-size: 30px;
+
+}
+
+
+/* 注册 */
+.zcone{
+  margin-left: 50px;
+  float: left;
+  width: 300px;
+  height:500px;
+  /* border: 1px red solid; */
+  background-image: url(../img/雷电将军.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+}
+.h21{
+  font-family: "楷体";
+  text-align: center;
+  color: #3d9bc7;
+  font-size: 45px;
+}
+.h25{
+  font-family: "楷体";
+  font-size: 12px;
+  text-align: center;
+}
+.zctwo{
+  float: left;
+  width: 850px;
+  height: 85px;
+  /* border: 1px red solid; */
+}
+.zctree{
+  float: left;
+  width: 850px;
+  height: 415px;
+  /* border: 1px red solid; */
+  
+}
+/* 账号 */
+.zh{   
+  font-size: 25px; 
+  /* outline: none; */
+  margin-top: 30px;
+  margin-left: 230px;
+  width: 450px;
+  height: 50px;
+  border: 1px rgb(158, 144, 144) solid;
+  border-radius: 9px;
+  background-color: rgb(250, 248, 248);
+}
+.zh:focus{
+  border-radius: 9px;
+  border: 1px green solid;
+}
+/* 下拉框 */
+.xlk{
+  font-size: 25px;
+  width: 150px;
+  height: 50px;
+  border-radius: 9px;
+  margin-top: 30px;
+  margin-left: 230px;
+  background-color: rgb(250, 248, 248);
+  
+
+}
+/* 手机号码 */
+.sjk{
+  font-size: 25px;
+  margin-left: 50px;
+  width: 250px;
+  height: 50px;
+  border-radius: 9px;
+  background-color: rgb(239, 239, 239);
+  border: 1px rgb(158, 144, 144) solid;
+
+}
+/* 短信验证码 */
+.dxyzm{
+  background-color: rgb(250, 248, 248);
+  border: 1px rgb(158, 144, 144) solid;
+  border-radius: 9px;
+  margin-top: 30px;
+  margin-left: 230px;
+  font-size: 25px;
+  width: 150px;
+  height: 50px;
+
+}
+/* 发送验证码 */
+.fsyzm{
+  border: 1px rgb(158, 144, 144) solid;
+  border-radius: 9px;
+  margin-top: 30px;
+  margin-left: 50px;
+  font-size: 25px;
+  width: 250px;
+  height: 50px;
+  background-color: rgb(101, 161, 245);
+
+}
+/* 提交按钮 */
+.tj{
+  border: 1px rgb(158, 144, 144) solid;
+  border-radius: 9px;
+  margin-top: 30px;
+  margin-left: 230px;
+  font-size: 25px;
+  width: 450px;
+  height: 50px;
+  
+  background-color: rgb(101, 161, 245);
+
+}
+
+footer{
+    width: 1200px;
+    height: 120px;
+    /* border: 1px green solid; */
+    clear: both;
+    font-size: 13px;
+
+}
+footer h3{
+ 
+  margin-left: 50px;
+  font-size: 12px;
+}
+footer div{
+  width: 1145px;
+  height: 40px;
+  margin-left: 50px;
+  
+}
+/* 转行元素 */
+.bloc{
+    display: inline;
+}
